@@ -1,0 +1,33 @@
+.conteiner tr{
+    height: 1rem;
+}
+
+.conteiner th{
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.conteiner .text{
+    width: 500px;
+}
+
+.conteiner input{
+    
+}
+
+.conteiner .sub{
+    
+}
+
+span{
+    padding: 0 20px;
+    
+}
+
+.require{
+    background-color: red;
+}
+.quire{
+    background-color: green;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="conteiner">
+            <form action="">
+                <table>
+                    <tr>
+                        <th><label for="name">氏名</label></th>
+                        <td><span class="require">必須</span></td>
+                        <td><input class="text" id="name" name="name" type="text" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="furigana">ふりがな</label></th>
+                        <td><span class="require">必須</span></td>
+                        <td><input class="text" id="furigana" name="furigana" type="text" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="email">email</label></th>
+                        <td><span class="require">必須</span></td>
+                        <td><input class="text" id="email" name="email" type="text" required></td>
+                    </tr>
+                    <tr>
+                        <th>性別</th>
+                        <td><span class="quire">任意</span></td>
+                        <td>
+                            <label for="male"><input type="radio" id="male" name="sex" value="male" checked>男</label>
+                            <label for="female"><input type="radio" id="female" name="sex" value="female">女</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- 項目(select)-->
+                    </tr>
+                    <tr>
+                        <th>問い合わせ内容</th>
+                        <td><span class="require">必須</span></td>
+                        <td><textarea class="text" required></textarea></td>
+                    </tr>
+                </table>
+                <p><input class="sub" type="submit" value="送信"></p>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+<!--<label for=""></label> -->
