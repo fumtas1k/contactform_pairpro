@@ -1,3 +1,7 @@
+.conteiner {
+    padding: 20px;
+}
+
 .conteiner tr{
     height: 1rem;
 }
@@ -17,17 +21,18 @@
 }
 
 .conteiner .sub{
-    
+    font-size: 2rem;
+    padding: 20px;
 }
 
 span{
     padding: 0 20px;
-    
+
 }
 
 .require{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.6);
 }
 .quire{
-    background-color: green;
+    background-color: rgba(0, 255, 0, 0.6);
 }
